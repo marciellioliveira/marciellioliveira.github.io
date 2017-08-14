@@ -1,5 +1,6 @@
   body {
       position: relative; 
+
   }
 
   #section1 {padding-top:50px;min-height:500px;color: #fff; background-color: #1E88E5;}
@@ -18,7 +19,6 @@
   padding-bottom: 60px;
 }
 
-
  .carousel-control.left, .carousel-control.right {
   background: transparent !important;
   filter: progid: none !important;
@@ -27,3 +27,11 @@
   outline: 0;
   opacity: 1;
  }
+
+#rodape {
+text-align: center; 
+}
+
+#rodape .row ul li {
+  display: inline-block;
+}
