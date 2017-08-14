@@ -19,8 +19,8 @@ var images = {};
 var totalResources = 6;
 var numResourcesLoaded = 0;
 var fps = 30;
-var x = 245;
-var y = 185;
+var x = 85; //245
+var y = 160; //185
 var breathInc = 0.1;
 var breathDir = 1;
 var breathAmt = 0;
@@ -100,7 +100,7 @@ function redraw() {
   drawEllipse(x + 58, y - 68 - breathAmt, 8, curEyeHeight); // Right Eye
   
   context.font = "bold 12px sans-serif";
-  context.fillText("fps: " + curFPS + "/" + fps + " (" + numFramesDrawn + ")", 40, 200);
+ // context.fillText("fps: " + curFPS + "/" + fps + " (" + numFramesDrawn + ")", 40, 200);
   ++numFramesDrawn;
 }
 
