@@ -2,12 +2,12 @@
       position: relative; 
   }
 
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
-  #section6 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section1 {padding-top:50px;min-height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;min-height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;min-height:500px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;min-height:500px;color: #fff; background-color: #00bcd4;}
+  #section5 {padding-top:50px;min-height:500px;color: #fff; background-color: #009688;}
+  #section6 {padding-top:50px;min-height:500px;color: #fff; background-color: #673ab7;}
  
  .carousel-inner {
  	background-color: !important transparent;
@@ -15,7 +15,9 @@
 
  .carousel-inner img {
   margin: auto;
+  padding-bottom: 60px;
 }
+
 
  .carousel-control.left, .carousel-control.right {
   background: transparent !important;
