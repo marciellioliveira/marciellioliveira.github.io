@@ -4,7 +4,8 @@
   }
 
   #section1 {padding-top:50px;min-height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;min-height:500px;color: #fff; background-color: #673ab7;}
+  #section2 {padding-top:50px;min-height:500px;color: #fff; background-color: white}
+  #section21 {padding-top:50px;min-height:500px;color: #fff; background-color:#009688;}
   #section3 {padding-top:50px;min-height:500px;color: #fff; background-color: #ff9800;}
   #section4 {padding-top:50px;min-height:500px;color: #fff; background-color: #00bcd4;}
   #section5 {padding-top:50px;min-height:500px;color: #fff; background-color: #009688;}
@@ -35,3 +36,28 @@ text-align: center;
 #rodape .row ul li {
   display: inline-block;
 }
+
+
+
+
+#section21 p {
+  padding-top: 10%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.btn-primary{
+ 
+  padding: 20px;
+
+}
+
+.btn-primary a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary a:hover {
+  text-decoration: none;
+}
+
