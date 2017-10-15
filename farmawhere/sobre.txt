@@ -1,0 +1,8 @@
+Site FarmaWhere
+
+-Cadastro está ok usando serv rest
+
+
+
+
+-Falta fazer o login.
