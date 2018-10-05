@@ -1,0 +1,413 @@
+@charset "UTF-8";
+
+/* Configuração Geral*/
+::-moz-selection { background: #FDAA27!important; color: white }
+::selection { background: #FDAA27!important; color: white}
+/* Fim Configuração Geral*/
+
+/* Inicio Menu */
+.navbar #menu {
+	background-color: #FDAA27!important;
+}
+
+.navbar #menu #navbar-header a  {
+	color: white!important;
+	font-weight: bold;
+}
+
+.navbar #menu #collapse a  {
+	color: white!important;
+	font-weight: bold;
+}
+
+.navbar #menu #collapse a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.navbar #menu #navbar-right input {
+	text-decoration: none;
+	outline:none;
+	border: none;
+	box-shadow: none;
+}
+
+.navbar #menu #navbar-right input:focus {
+	text-decoration: none;
+	outline:none;
+	border: none;
+	box-shadow: none;	
+}
+
+.navbar #menu #navbar-right button {
+	font-weight: bold;	
+	color: #FDAA27!important;
+}
+
+.navbar #menu #navbar-right button:hover {
+	font-weight: bold;	
+	color: white!important;
+	background-color: #FDAA27!important;
+	border-color: white;
+}
+/* Fim do Menu */
+
+/* Icones Rede de Social*/
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white!important;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white!important;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white!important;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white!important;
+}
+
+
+/*Fim Icones de Rede Social*/
+
+/*
+********************************************Abaixo index.php ********************************************
+*/
+
+/* Inicio bloco cima */
+
+.container-fluid #jumbotron {
+	padding: 15px!important;
+	background-color: white;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto h1{
+	font-size: 200%;
+	color: #FDAA27!important;	
+    margin: 5px;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto p{
+	font-size: 100%;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto #btn {
+	background-color: #FDAA27;
+	border-color: white;
+	font-weight: bold;
+}
+
+.container-fluid #jumbotron #sobre-o-projeto #btn:hover {
+	background-color: #FE6525;
+	border-color: white;
+	font-weight: bold;
+}
+
+/* Fim bloco cima */
+
+/* Inicio Meio */
+.container-fluid #separacao {
+	border-top-color:  #FDAA27!important;	
+}
+
+.container-fluid #o-projeto {
+	color: #FDAA27!important;
+}
+
+.container-fluid #posts h1 {
+	color: #FDAA27!important;
+	font-size: 150%;
+	margin: 0px;
+}
+
+.container-fluid #posts a:hover {
+	text-decoration: underline;
+    text-decoration-color: #FDAA27!important;
+}
+
+.container-fluid #posts p {
+	margin-top: 3px;
+	margin-left: 11px;
+	font-size: 110%;
+}
+
+/*
+********************************************Abaixo sobre.php ********************************************
+*/
+.container-fluid #jumbotron p {
+	font-size: 115%;
+}
+
+
+/*
+********************************************Abaixo galeria.php ********************************************
+*/
+
+.container-fluid #jumbotron img:hover {
+	cursor: pointer;
+}
+
+.container-fluid #jumbotron .modal {
+	background-color: white;
+}
+
+.container-fluid #jumbotron .modal .modal-dialog {
+	width: 100%;
+  	height: 100%;
+  	margin: 0;
+  	padding: 0;
+
+}
+
+.container-fluid #jumbotron .modal .modal-content {
+	height: auto;
+  	min-height: 100%;
+ 	border-radius: 0; 
+}
+
+.container-fluid #jumbotron .modal .modal-content .modal-body img {
+	width: 80%;
+	height: 80%;	
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*
+********************************************Abaixo voluntarios.php ********************************************
+*/
+.container-fluid #jumbotron #img-redonda {
+	border: 2px solid #FDAA27!important;
+    width: 200px;
+    height: 200px;
+    border-radius:100%;
+}
+
+
+/*
+********************************************Abaixo contato.php ********************************************
+*/
+.container-fluid #jumbotron #contato {
+	font-size: 250%;
+	color: #FDAA27!important;
+}
+
+.container-fluid #jumbotron #formulario {
+	background-color: #FDAA27!important;
+	padding:20px;
+	border-radius: 5px;
+}
+
+.container-fluid #jumbotron #formulario h3 {
+	color: white;
+}
+
+.container-fluid #jumbotron #formulario input {
+	border-color:  #FDAA27!important;
+}
+
+.container-fluid #jumbotron #formulario textarea {
+	border-color:  #FDAA27!important;
+}
+
+.container-fluid #jumbotron #formulario label {
+	color: white!important;
+}
+
+.container-fluid #jumbotron #formulario #btn #submit {
+	float: right;
+	font-weight: bold;	
+	color: #FDAA27!important;
+	background-color: white!important;
+} 
+
+.container-fluid #jumbotron #formulario #btn #submit:hover {
+	font-weight: bold;	
+	color: white!important;
+	background-color: #FDAA27!important;
+	border-color: white!important;
+}
+
+
+/*
+********************************************Abaixo footer.php ********************************************
+*/
+/* Inicio Footer */
+
+.page-footer {   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDAA27!important;
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding: 1%;
+}
+
+.page-footer a {
+	color: white;
+
+}
+
+.page-footer a:hover{	
+	font-weight: bold;
+	color: white;
+}
+
+
+
+/*
+********************************************Abaixo adm/index.php | Cadastro/Login ********************************************
+*/
+
+/* Inicio Cadastro | Login */
+.container-fluid {
+	margin-top: 10%;    
+}
+
+.container-fluid #caixa {
+	background-color: #FDAA27!important;	
+    padding: 10px;
+}
+
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+
+.panel-login>.panel-heading {
+	color: #fff;
+	background-color: #FDAA27!important;
+	text-align:center;
+
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #FE6525!important;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+
+.panel-login .panel-body .row .form-group a {
+	color: white;
+}
+
+.panel-login .panel-body .row .form-group a:hover {
+	font-weight: bold;
+}
+
+.panel-login .panel-body .row .form-group label {
+	color: white;
+}
+
+.panel-login .panel-body .row .form-group label:hover {
+	font-weight: bold;
+}
+
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: white!important;
+	outline: none;
+	color: #FDAA27!important;
+	font-weight: bold!important;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color:#FE6525!important;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: white!important;
+	background-color: #FE6525!important;
+	border-color: #FE6525!important;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: white!important;
+	outline: none;
+	color: #FDAA27!important;
+	font-weight: bold!important;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color:#FE6525!important;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: white!important;
+	background-color: #FE6525!important;
+	border-color: #FE6525!important;
+}
+
+/* Fim Cadastro | Login */
